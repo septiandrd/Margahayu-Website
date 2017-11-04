@@ -30,13 +30,13 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#"><img class="logo-custom" src="assets/img/logo.jpg" alt=""/></a>
+
             </div>
             <div class="navbar-collapse collapse move-me">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="#home">HOME</a></li>
-                    <li><a href="#stop1">PROFIL</a></li>
-                    <li><a href="#stop3">FASILITAS</a></li>
+                    <li><a href="#profil">PROFIL</a></li>
+                    <li><a href="#fasilitas">FASILITAS</a></li>
                     <li><a href="#course-sec">INFO & BERITA</a></li>
                     <li><a href="#contact-sec">GALERI</a></li>
                 </ul>
@@ -50,17 +50,19 @@
         <div class="overlay">
             <div class="container">
                 <div class="row text-center-up ">
+                    <a class="navbar-brand" href="#"><img class="navbar-brand" src="assets/img/logo.png" alt=""/></a>
                     <div class="col-lg-12  col-md-12 col-sm-12">
                         <div class="flexslider set-flexi" id="main-section">
                             <ul class="slides move-me">
                                 <!-- Slider 01 -->
+
                                 <li>
                                     <h3>Selamat Datang di Website</h3>
                                     <h1>SMAN 1 MARGAHAYU</h1>
-                                    <a href="#stop1" class="btn btn-info btn-lg" style="width: 130px">
+                                    <a href="#profil" class="btn btn-info btn-lg" style="width: 130px">
                                         PROFIL
                                     </a>
-                                    <a href="#stop2" class="btn btn-info btn-lg" style="width: 130px">
+                                    <a href="#visimisi" class="btn btn-info btn-lg" style="width: 130px">
                                         VISI MISI
                                     </a>
                                 </li>
@@ -74,7 +76,7 @@
     {{--SLIDER SECTION END--}}
 
     {{--STOP MARK 1 START--}}
-    <div id="stop1" class="tag-line">
+    <div id="profil" class="tag-line">
         <div class="container">
             <div class="row  text-center">
                 <div class="col-lg-12  col-md-12 col-sm-12">
@@ -97,17 +99,18 @@
                     Kelas X sampai Kelas XII.
                 </p>
                 <hr>
-                <h3><b>KEPALA SEKOLAH</b></h3>
+                <h3 data-scroll-reveal="enter from the bottom after 0.2s"><b>KEPALA SEKOLAH</b></h3>
                 <br>
                 <img src="assets/img/kepsek.jpg" class="img-rounded" style="width: 350px;padding: 5px;border: double"
                      data-scroll-reveal="enter from the bottom after 0.3s">
                 <br>
-                <h4><b>Drs. H. Aa Sudaya, M.Pd</b></h4>
+                <h4 data-scroll-reveal="enter from the bottom after 0.5s"><b>Drs. H. Aa Sudaya, M.Pd</b></h4>
                 <br>
                 <hr>
-                <h3><b>ALAMAT</b></h3>
+                <h3 data-scroll-reveal="enter from the bottom after 0.2s"><b>ALAMAT</b></h3>
                 <p data-scroll-reveal="enter from the bottom after 0.3s">
                     Jl. KH. Wahid Hasyim No. 387, Kecamatan Margahayu, Kabupaten Bandung 40226, Jawa Barat, Indonesia
+                    <br>
                     <b>Telp./Faks. </b>022-5405962 <br>
                     <b>Email : </b>sman_1_margahayu@yahoo.co.id</p>
             </div>
@@ -116,7 +119,7 @@
     {{--PROFIL SEKOLAH END--}}
 
     {{--STOP MARK 2 START--}}
-    <div id="stop2" class="tag-line">
+    <div id="visimisi" class="tag-line">
         <div class="container">
             <div class="row  text-center">
                 <div class="col-lg-12  col-md-12 col-sm-12">
@@ -133,7 +136,7 @@
             <div class="row text-center">
                 <div class="col-lg-8 col-lg-offset-2 col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2">
                     <h1 data-scroll-reveal="enter from the bottom after 0.1s" class="header-line">VISI & MISI SEKOLAH</h1>
-                    <h3><b>VISI</b></h3>
+                    <h3 data-scroll-reveal="enter from the bottom after 0.2s"><b>VISI</b></h3>
                     <h4 data-scroll-reveal="enter from the bottom after 0.3s">Terwujudnya lulusan yang unggul dalam mutu,
                         berwawasan global, cinta lingkungan berlandaskan
                         Iman dan Taqwa
@@ -143,50 +146,22 @@
 
             </div>
             <div class="col-lg-8 col-lg-offset-2 col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2">
-                <h3 class="text-center"><b>MISI</b></h3>
+                <h3 data-scroll-reveal="enter from the bottom after 0.2s" class="text-center"><b>MISI</b></h3>
                 <ul data-scroll-reveal="enter from the bottom after 0.3s">
-                    <h4>
-                        <li>Melaksanakan pemenuhan delapan standar Nasional Pendidikan</li>
-                    </h4>
-                    <h4>
-                        <li>Meningkatkan prestasi akademik dan non akademik siswa</li>
-                    </h4>
-                    <h4>
-                        <li>Meningkatkan kompetensi pendidik dan tenaga kependidikan</li>
-                    </h4>
-                    <h4>
-                        <li>Melaksanakan pengembangan kurikulum</li>
-                    </h4>
-                    <h4>
-                        <li>Memanfaatkan sarana pembelajaran sebagai Pusat Sumber Belajar</li>
-                    </h4>
-                    <h4>
-                        <li>Memanfaatkan perkembangan IPTEK untuk membantu kegiatan pembelajaran</li>
-                    </h4>
-                    <h4>
-                        <li>Melaksanakan kegiatan pembelajaran berbasis keunggulan lokal</li>
-                    </h4>
-                    <h4>
-                        <li>Meningkatkan pemahaman tentang Budaya Lokal</li>
-                    </h4>
-                    <h4>
-                        <li>Mengembangkan kegiatan pembelajaran berbasis lingkungan</li>
-                    </h4>
-                    <h4>
-                        <li>Melaksanakan kegiatan pengelolaan lingkungan hidup</li>
-                    </h4>
-                    <h4>
-                        <li>Menciptakan suasana lingkungan pembelajaran yang nyaman</li>
-                    </h4>
-                    <h4>
-                        <li>Mengembangkan nilai-nilai agama dan budaya dalam kegiatan pembelajaran</li>
-                    </h4>
-                    <h4>
-                        <li>Melaksanakan kegiatan peringatan hari-hari besar keagamaan</li>
-                    </h4>
-                    <h4>
-                        <li>Mengembangkan kegiatan peningkatan iman dan taqwa.</li>
-                    </h4>
+                    <h4><li>Melaksanakan pemenuhan delapan standar Nasional Pendidikan</li></h4>
+                    <h4><li>Meningkatkan prestasi akademik dan non akademik siswa</li></h4>
+                    <h4><li>Meningkatkan kompetensi pendidik dan tenaga kependidikan</li></h4>
+                    <h4><li>Melaksanakan pengembangan kurikulum</li></h4>
+                    <h4><li>Memanfaatkan sarana pembelajaran sebagai Pusat Sumber Belajar</li></h4>
+                    <h4><li>Memanfaatkan perkembangan IPTEK untuk membantu kegiatan pembelajaran</li></h4>
+                    <h4><li>Melaksanakan kegiatan pembelajaran berbasis keunggulan lokal</li></h4>
+                    <h4><li>Meningkatkan pemahaman tentang Budaya Lokal</li></h4>
+                    <h4><li>Mengembangkan kegiatan pembelajaran berbasis lingkungan</li></h4>
+                    <h4><li>Melaksanakan kegiatan pengelolaan lingkungan hidup</li></h4>
+                    <h4><li>Menciptakan suasana lingkungan pembelajaran yang nyaman</li></h4>
+                    <h4><li>Mengembangkan nilai-nilai agama dan budaya dalam kegiatan pembelajaran</li></h4>
+                    <h4><li>Melaksanakan kegiatan peringatan hari-hari besar keagamaan</li></h4>
+                    <h4><li>Mengembangkan kegiatan peningkatan iman dan taqwa.</li></h4>
                 </ul>
                 <br><br id="stop3">
             </div>
@@ -195,8 +170,62 @@
     {{--VISI MISI END--}}
 
     {{--STOP MARK 3 START--}}
-
+    <div id="fasilitas" class="tag-line">
+        <div class="container">
+            <div class="row  text-center">
+                <div class="col-lg-12  col-md-12 col-sm-12">
+                    <h2 data-scroll-reveal="enter from the bottom after 0.1s"></h2>
+                </div>
+            </div>
+        </div>
+    </div>
     {{--STOP MARK 3 END--}}
+
+    {{--CONTACT US START--}}
+    <div id="contact-sec">
+        <div class="overlay">
+            <div class="container set-pad">
+                <div class="row text-center">
+                    <div class="col-lg-8 col-lg-offset-2 col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2">
+                        <h1 data-scroll-reveal="enter from the bottom after 0.1s" class="header-line">FASILITAS</h1>
+                        <p data-scroll-reveal="enter from the bottom after 0.3s">
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                            Aenean commodo.
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                            Aenean commodo.
+                        </p>
+                    </div>
+
+                </div>
+                <!--/.HEADER LINE END-->
+                <div class="row set-row-pad" data-scroll-reveal="enter from the bottom after 0.5s">
+
+
+                    <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2">
+                        <form>
+                            <div class="form-group">
+                                <input type="text" class="form-control " required="required" placeholder="Your Name"/>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control " required="required" placeholder="Your Email"/>
+                            </div>
+                            <div class="form-group">
+                                <textarea name="message" required="required" class="form-control" style="min-height: 150px;"
+                                          placeholder="Message"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-info btn-block btn-lg">SUBMIT REQUEST</button>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{--CONTACT US END--}}
+
+
 
     {{--FASILITAS START--}}
     <div id="course-sec" class="container set-pad">
@@ -210,7 +239,6 @@
                     Aenean commodo.
                 </p>
             </div>
-
         </div>
         <!--/.HEADER LINE END-->
 
@@ -287,52 +315,6 @@
         </div>
     </div>
     {{--FASILITAS END--}}
-
-    {{--CONTACT US START--}}
-    <div id="contact-sec">
-        <div class="overlay">
-            <div class="container set-pad">
-                <div class="row text-center">
-                    <div class="col-lg-8 col-lg-offset-2 col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2">
-                        <h1 data-scroll-reveal="enter from the bottom after 0.1s" class="header-line">CONTACT US </h1>
-                        <p data-scroll-reveal="enter from the bottom after 0.3s">
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                            Aenean commodo.
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                            Aenean commodo.
-                        </p>
-                    </div>
-
-                </div>
-                <!--/.HEADER LINE END-->
-                <div class="row set-row-pad" data-scroll-reveal="enter from the bottom after 0.5s">
-
-
-                    <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2">
-                        <form>
-                            <div class="form-group">
-                                <input type="text" class="form-control " required="required" placeholder="Your Name"/>
-                            </div>
-                            <div class="form-group">
-                                <input type="text" class="form-control " required="required" placeholder="Your Email"/>
-                            </div>
-                            <div class="form-group">
-                                <textarea name="message" required="required" class="form-control" style="min-height: 150px;"
-                                          placeholder="Message"></textarea>
-                            </div>
-                            <div class="form-group">
-                                <button type="submit" class="btn btn-info btn-block btn-lg">SUBMIT REQUEST</button>
-                            </div>
-
-                        </form>
-                    </div>
-
-
-                </div>
-            </div>
-        </div>
-    </div>
-    {{--CONTACT US END--}}
 
     {{--LOCATION START--}}
     <div class="container">

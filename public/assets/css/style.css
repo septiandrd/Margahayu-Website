@@ -34,12 +34,13 @@ body {
 }
 
 #menu {
-    background-color: #eeeeee;
-    color: rgba(28, 43, 75, 1);
+    background-color: #2d3d5a;
+    box-shadow: black;
+    color: rgb(255, 255, 255);
     font-size: 12px;
     font-weight: 900;
     letter-spacing: 1px;
-    min-height: 90px;
+    min-height: 40px;
 }
 
 
@@ -48,7 +49,7 @@ body {
 }
 
     .navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-nav > li > a:hover {
-        color: #1C2B4B;
+        color: #ffffff;
         padding: 22px 10px;
     }
 
@@ -68,8 +69,8 @@ body {
 }
 
     .home-sec .overlay {
-        background: rgba(38, 57, 88, 0.75);
-        min-height: 720px;
+        background: rgba(0, 0, 0, 0.71);
+        min-height: 700px;
     }
 
     .home-sec h1 {
@@ -93,7 +94,7 @@ body {
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0);
     background-color: transparent;
     border: 0px solid #000;
-    padding-top: 120px;
+    padding-top: 20px;
 }
 
 .flex-control-nav {
