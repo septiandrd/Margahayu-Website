@@ -37,8 +37,8 @@
                     <li><a href="#home">HOME</a></li>
                     <li><a href="#profil">PROFIL</a></li>
                     <li><a href="#fasilitas">FASILITAS</a></li>
-                    <li><a href="#course-sec">INFO & BERITA</a></li>
-                    <li><a href="#contact-sec">GALERI</a></li>
+                    <li><a href="berita">INFO & BERITA</a></li>
+                    <li><a href="galeri">GALERI</a></li>
                 </ul>
             </div>
         </div>
